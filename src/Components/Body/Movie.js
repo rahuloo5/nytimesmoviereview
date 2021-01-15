@@ -42,40 +42,20 @@ return(
 				
 					
 				</div>
-                {
-                    
-image.map((item)=>{
+  
                      
-                          if (item!= null)
-                          {
-                                  return <img src={item.src} alt="Movie" style={{height:'90%' , width:'70%' , paddingLeft:25}}/>
+                    {movie.multimedia!= null?<img src={movie.multimedia.src} alt="Movie" style={{height:'90%' , width:'70%' , paddingLeft:25}}/>
                                  
-                          }else{
-                              return <img src ={Fallimage} style={{height:'90%' , width:'70%' , paddingLeft:25}} alt="fallback"/>
+                         :
+                            <img src ={Fallimage} style={{height:'90%' , width:'70%' , paddingLeft:25}} alt="fallback"/>
                           }
-                      }
+                   
                      
-)}
+
                       
 
                     
-                    
-
-{/*image.length === null? <img src ={Fallimage} style={{height:'90%' , width:'70%' , paddingLeft:25}} alt="fallback"/>:
-
-
-  
-                //<img src={image.src} alt="Movie" style={{height:'90%' , width:'70%' , paddingLeft:25}}/> */}
-    
-           
-
-       
-
- 
- 
-                                
-                
-                   </div>
+                     </div>
                    </div>
 	</div>
 
@@ -105,55 +85,7 @@ image.map((item)=>{
 </>
 )
 }
-{/*<section className="product">
-	<div className="product__photo">
-		<div className="photo-container">
-			<div className="photo-main">
-				<div className="controls">
-				
-					
-				</div>
-                {
-                    image.map((item)=>{
-                       
-                         if(item==null){
 
-                               return <img src ={Fallimage} alt="fallback"/>
-                            }
-                            else{
-                                return  
-                    <img src={item} alt="Movie" style={{height:'90%' , width:'70%' , paddingLeft:25}}/> }
-                                
-                    })}
-                   
-                    
-                    
-                  
-                
- 				
-			</div>
-			
-		</div>
-	</div>
-	<div className="product__info">
-		<div className="title">
-            {title.map((item)=><h1>{item}</h1>)}
-			
-			<span>{review}</span>
-		</div>
-		<div className="rating">
-			 <span>{rating}</span>
-		</div>
-	
-		<div className="summary">
-			<h3>Short Summary</h3>
-			<ul>
-				<li>{short_summary}</li>
-			</ul>
-		</div>
-		<button className="revbtn">Full Review</button>
-	</div>
-                </section> */}
 
 
 
