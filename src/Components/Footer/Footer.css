@@ -1,0 +1,33 @@
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+
+}
+
+.critic{
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+.critic_movie{
+    display: flex;
+    flex-direction: column;
+}
+
+.critic_news{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+
+}
