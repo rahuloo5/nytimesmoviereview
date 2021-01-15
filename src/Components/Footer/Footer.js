@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div className="footer_container">
             <div className="critic">
-                <h3 style={{fontWeight:'bold',color:'black'}}>critic.</h3>
+                <h2 style={{fontWeight:'bold',color:'black'}}>critic.</h2>
                 <div className="social">
                     <FacebookIcon/>
                     <TwitterIcon/>
@@ -19,7 +19,7 @@ function Footer() {
 
             </div>
             <div className="critic_movie">
-                <h3 style={{fontWeight:'bold',color:'black'}}>MOVIES</h3>
+                <h2 style={{fontWeight:'bold',color:'black'}}>MOVIES</h2>
                 <h5>In Theatres</h5>
                 <h5>Box Office</h5>
                 <h5>DVD Streming</h5>
@@ -27,7 +27,7 @@ function Footer() {
 
             </div>
             <div className="critic_tv">
-                <h3 style={{fontWeight:'bold',color:'black'}}>TV</h3>
+                <h2 style={{fontWeight:'bold',color:'black'}}>TV</h2>
 
             <h5>New Release</h5>
                 <h5>Most Popular</h5>
@@ -35,7 +35,7 @@ function Footer() {
                 <h5>Top Rated</h5>
                 </div>
                 <div className="critic_news">
-                    <h3 style={{fontWeight:'bold',color:'black'}}>NEWS</h3>
+                    <h2 style={{fontWeight:'bold',color:'black'}}>NEWS</h2>
                 <h5>Columns</h5>
                 <h5>Best and Worst</h5>
                 <h5>Watchable</h5>
@@ -43,7 +43,7 @@ function Footer() {
 
                 </div>
                 <div className="about">
-                    <h3 style={{fontWeight:'bold',color:'black'}}>ABOUT</h3>
+                    <h2 style={{fontWeight:'bold',color:'black'}}>ABOUT</h2>
                 <h5>About  Critic</h5>
                 <h5>Critic Submission </h5>
                 <h5>Careers</h5>
