@@ -6,7 +6,7 @@ import { Button } from '@material-ui/core';
 function Header({search}) {
 
     const [movie, setMovie] = useState('')
-    const[searchmovie , setsearchmovie] = useState('wonder woman')
+    //const[searchmovie , setsearchmovie] = useState('')
     const moviesubmit=async(e)=>{
         e.preventDefault();
        
