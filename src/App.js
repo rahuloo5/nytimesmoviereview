@@ -6,7 +6,7 @@ import Footer from './Components/Footer/Footer'
 
 function App() {
 
-  const [search , setSearch] = useState('')
+  const [search , setSearch] = useState('wonder woman')
 
 
   return (
